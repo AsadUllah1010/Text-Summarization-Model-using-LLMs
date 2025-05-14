@@ -9,6 +9,7 @@ Choose a pre-trained model designed for text generation tasks. The T5 model (Tex
 <br>
 Step 2: Install Required Libraries
 Install the transformers library by Hugging Face. It provides easy access to various pre-trained models and tokenizers. If you are using Google Colab, you will find it pre-installed in the Colab environment. To install it on your local machine, run the command mentioned below on your terminal or command prompt:
+
 pip install transformer
 <br>
 

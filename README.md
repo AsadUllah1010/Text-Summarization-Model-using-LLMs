@@ -33,3 +33,14 @@ length_penalty: Adjusts the length of the summary (penalizes lengthy outputs).
 Step 7: Decode and Display the Summary
 The final step is to decode the generated summary using the tokenizer to convert the tokens back to readable text:
 
+# Features
+t5 - small
+
+# Conclusion
+By following this step-by-step approach, you can build and customize a text summarization model using LLMs like T5 with Python. So, to build a text summarization model, first, we need to choose a pre-trained language model like T5. Then, we need to tokenize the input text, which converts it into a format the model can process. The next step will be to use the model to generate a summary by specifying parameters like maximum length and beam search for better results. The final step will be to decode the generated tokens back into readable text and adjust parameters to improve the summary quality.
+
+# Contributing
+If you are interested in contributing to the project, please create a fork of the repository and submit a pull request. All contributions are welcome and appreciated.
+
+
+

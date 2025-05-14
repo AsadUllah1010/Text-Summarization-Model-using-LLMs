@@ -10,8 +10,8 @@ Choose a pre-trained model designed for text generation tasks. The T5 model (Tex
 Step 2: Install Required Libraries
 Install the transformers library by Hugging Face. It provides easy access to various pre-trained models and tokenizers. If you are using Google Colab, you will find it pre-installed in the Colab environment. To install it on your local machine, run the command mentioned below on your terminal or command prompt:
 pip install transformer
-
 <br>
+
 Step 3: Load the Pre-trained Model and Tokenizer
 Now, we need to import the T5Tokenizer and T5ForConditionalGeneration classes from the transformers library. Select a model like t5-small, t5-base, or t5-large based on the requirement and computational capacity:
 To select between t5-small, t5-base, or t5-large, consider your computational resources and accuracy needs. t5-small is faster and requires less memory, which makes it suitable for quick tasks or limited hardware. t5-base offers a balance between speed and performance, ideal for general use. t5-large provides the highest accuracy but needs more memory and processing power, which makes it better for scenarios where performance is more important than speed:
